@@ -1,0 +1,36 @@
+<h1>Enter in a New Game</h1>
+<article>
+    <form method="POST" action="/create">
+        <div class="input-field">
+          <!-- The Game Title Input -->
+            <label>Game Title:</label>
+            <input type="text" name="title" size="50" placeholder="Game Title...">
+        </div>
+         <div class="input-field">
+           <!-- The Game Studio Input -->
+            <label>Game Studio:</label>
+            <input type="text" name="studio" size="50" placeholder="Game Studio">
+        </div>
+        <div class="input-field">
+          <!-- The Game Rating Input -->
+           <label>Game Rating:</label>
+           <input type="text" name="rating" size="50" placeholder="Game Rating">
+       </div>
+       <div class="input-field">
+         <!-- The Game Rating Input -->
+          <label>Year Released:</label>
+          <input type="text" name="year" size="50" placeholder="Year Released">
+      </div>
+        <div class="input-field">
+          <!-- The Game Tags Input -->
+            <label>Game Tags:</label>
+            <input type="text" name="tag" size="50" placeholder="Tag1 Tag2 Tag3 (seperated by spaces)">
+        </div>
+        <div class="input-field">
+          <!-- The Game Description Input -->
+            <label>Game Description:</label>
+            <textarea type="text" name="content" rows="20" placeholder="Game Description..."></textarea>
+        </div>
+        <button type="submit">Enter in a new Game </button>
+    </form>
+</article>

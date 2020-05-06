@@ -1,0 +1,20 @@
+<h2>All Games That has Input:</h2>
+{{#each data}}
+<article>
+	<h2 class="title">{{this.title}}</h2> <i class="rating"> Rating: {{this.rating}}</i>
+  <i class="tag"> Tag: {{this.tag}}</i> <i class="year"> Year Released: {{this.year}}</i>
+	<hr>
+	<div class="content">
+	    {{{this.preview}}}
+	</div>
+</article>
+{{else}}
+<article>
+    <h1>There are no games that are posted here yet :(</h1>
+    <a href="/create">Post the first game here!</a>
+</article>
+{{/each}}
+<article>
+    <h1>Do you want to add a game.</h1>
+    <a href="/create">You can do it here!</a>
+</article>
